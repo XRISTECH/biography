@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #fff;
+    padding: 10px;
+}
+nav .navbar-brand{
+    font-weight: bolder;
+}
+nav .navbar-brand .dot{
+    color: #ce1213;
+}
+.collapse li a{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+}
+.collapse .active{
+    border-bottom: 3px solid ;
+}
+nav .mybtn{
+    background-color: #ce2212;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 15%;
+    padding: 2px;
+}
+.hero{
+    
+    margin-top: 5%;
+    background-color: ef4f4f6f;
+}
+.hero h3{
+    font-family: cursive;
+    margin-top: 25%;
+}
+.hero p{
+    font-size: 10px;
+}
+.hero a{
+    text-decoration: none;
+}
+.hero .book{
+    background-color: #ce2212;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.hero .watch{
+    color: black;
+    margin-left: 10px;
+}
+.hero .fa-play-circle{
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 30px;
+}
+.hero img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+.about .one p{
+    font-size:10px;
+    font-weight: bold;
+    color: #a6a7a8;
+}
+.about .one h3{
+    font-family: cursive;
+    font-weight: lighter;
+}
+.about .one h3 .us{
+    color: #ce1213;
+}
+.about .two{
+    padding: 30px;
+}
+.about .atwo{
+   /* border: 1px solid red; */
+    text-align: center;
+    height: 500px;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+    url('../../img/offsetcomp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .atwo div{
+    background-color: white;
+    width: 70%;
+    margin-top: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    font-weight: bold;
+}
+.about .atwo div .no{
+    color: #ce1213;
+}
+.btwo .text-center{
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/offsetcomp.jpg');
+    background-repeat: no-repeat;
+    height: 180px; 
+    background-size: cover;
+    
+}
